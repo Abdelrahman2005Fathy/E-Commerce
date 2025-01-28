@@ -1,9 +1,14 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { FaFacebook, FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
-import FooterListTitle from "./FooterListTitle";
-import { paymentCard } from "../../../assets/images";
-import Image from "../../designLayouts/Image";
+import React, { useState } from 'react';
+
+import { motion } from 'framer-motion';
+import {
+  FaGithub,
+  FaLinkedin,
+} from 'react-icons/fa';
+
+import { paymentCard } from '../../../assets/images';
+import Image from '../../designLayouts/Image';
+import FooterListTitle from './FooterListTitle';
 
 const Footer = () => {
   const [emailInfo, setEmailInfo] = useState("");
@@ -39,16 +44,7 @@ const Footer = () => {
             </p>
             <ul className="flex items-center gap-2">
               <a
-                href="https://www.youtube.com/@reactjsBD"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaYoutube />
-                </li>
-              </a>
-              <a
-                href="https://github.com/noorjsdivs"
+                href="https://github.com/Abdelrahman2005Fathy"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,16 +53,7 @@ const Footer = () => {
                 </li>
               </a>
               <a
-                href="https://www.facebook.com/Noorlalu143/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
-                  <FaFacebook />
-                </li>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+                href="https://www.linkedin.com/in/abdelrahman-fathi-55ab16308/"
                 target="_blank"
                 rel="noreferrer"
               >
